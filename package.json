@@ -1,6 +1,6 @@
 {
   "name": "md-to-ssml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small library for converting MD files to a SSML",
   "main": "src/index.js",
   "scripts": {

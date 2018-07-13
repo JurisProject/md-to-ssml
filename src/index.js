@@ -3,7 +3,7 @@ var fs = require('fs');
 var md2json = require('md-2-json');
 var ssml = require('ssml-builder');
 
-var defaultRules = JSON.parse(fs.readFileSync('./src/defaultRules.json', 'utf8'));
+var defaultRules = require('./defaultRules.js').defaults();
 exports.defaultRules = defaultRules;
 
 function applyRules( ssml, text, rules ) {
