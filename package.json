@@ -17,7 +17,7 @@
     "md-to-ssml",
     "md-2-ssml"
   ],
-  "author": "Juris, PBC <info@jurisproject.io> (http://jurisproject.io",
+  "author": "Juris, PBC <info@jurisproject.io> (http://jurisproject.io)",
   "license": "MIT",
   "dependencies": {
     "fs": "0.0.1-security",
