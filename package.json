@@ -1,0 +1,31 @@
+{
+  "name": "md-to-ssml",
+  "version": "1.0.0",
+  "description": "A small library for converting MD files to a SSML",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "test-unit": "NODE_ENV=test mocha '/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "ssml",
+    "md",
+    "md-to-ssml",
+    "md-2-ssml"
+  ],
+  "author": "Juris, PBC <info@jurisproject.io> (http://jurisproject.io",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "md-2-json": "^1.0.5",
+    "ssml-builder": "^0.4.3"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^5.2.0"
+  }
+}
